@@ -1,0 +1,24 @@
+{
+  "name": "complex-room",
+  "description": "Interactive raymarching experiments.",
+  "main": "index.js",
+  "authors": [
+    "Ramon Blanquer <blanquer.ramon@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "interactive",
+    "raymarching",
+    "experiments",
+    "webgl",
+    "computer",
+    "graphics",
+    "fractals"
+  ],
+  "homepage": "https://github.com/docwhite/complex-room",
+  "private": true,
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "gl-matrix": "^2.3.2"
+  }
+}

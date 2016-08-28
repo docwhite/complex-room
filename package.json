@@ -1,0 +1,39 @@
+{
+  "name": "complex-room",
+  "version": "1.0.0",
+  "description": "Interactive raymarching experiments.",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "glob": "^7.0.6",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docwhite/complex-room.git"
+  },
+  "keywords": [
+    "interactive",
+    "raymarching",
+    "experiments",
+    "webgl",
+    "computer",
+    "graphics",
+    "fractals"
+  ],
+  "author": "Ramon Blanquer <blanquer.ramon@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/docwhite/complex-room/issues"
+  },
+  "homepage": "https://github.com/docwhite/complex-room#readme",
+  "devDependencies": {
+    "gulp-connect": "^5.0.0"
+  }
+}

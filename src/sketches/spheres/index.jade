@@ -1,0 +1,12 @@
+extends ../../sketch
+
+block canvas
+  .view-wrapper
+    #sketch1-wrapper.gl-wrapper
+      canvas#sketch1
+    script(id="sketch1-fragment" type='x-shader/x-fragment')
+      include spheres.glsl
+
+    script.
+      handleResizing("sketch1");
+      addFragmentDoll("sketch1", function(gl, shaderProgram) { gl.uniform1f(gl.getUniformLocation(shaderProgram, "uParameter"), 0.2); })
